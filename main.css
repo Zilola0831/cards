@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.cards {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.button-end {
+  display: flex;
+  gap: 20px;
+}
+
+.button1 {
+  background-color: #3C415E;
+  border: 5px solid #76899C;
+  border-radius: 12px;
+  padding: 26px 26px;
+}
+.button1 .button-small {
+  background: linear-gradient(44deg, #00bd56 0%, #f9fd50 100%);
+  border-radius: 12px;
+  width: 167px;
+  height: 184px;
+  margin-bottom: 15px;
+}
+.button1 .button-end-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #00bd56;
+  margin-bottom: 10px;
+}
+.button1 .button-end-text {
+  color: white;
+  font-size: 22px;
+}
+.button1 .button-end-box1 {
+  width: 30px;
+  height: 30px;
+  background-color: #f9fd50;
+  border-radius: 15px;
+}
+
+.button2 {
+  background-color: #3C415E;
+  border: 5px solid #76899C;
+  border-radius: 12px;
+  padding: 26px 26px;
+}
+.button2 .button-small {
+  background: linear-gradient(44deg, #26baee 0%, #9fe8fa 100%);
+  border-radius: 12px;
+  width: 167px;
+  height: 184px;
+  margin-bottom: 15px;
+}
+.button2 .button-end-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #26baee;
+  margin-bottom: 10px;
+}
+.button2 .button-end-text {
+  color: white;
+  font-size: 22px;
+}
+.button2 .button-end-box1 {
+  width: 30px;
+  height: 30px;
+  background-color: #9fe8fa;
+  border-radius: 15px;
+}
+
+.button3 {
+  background-color: #3C415E;
+  border: 5px solid #76899C;
+  border-radius: 12px;
+  padding: 26px 26px;
+}
+.button3 .button-small {
+  background: linear-gradient(44deg, #8f71ff 0%, #8bffff 100%);
+  border-radius: 12px;
+  width: 167px;
+  height: 184px;
+  margin-bottom: 15px;
+}
+.button3 .button-end-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #8f71ff;
+  margin-bottom: 10px;
+}
+.button3 .button-end-text {
+  color: white;
+  font-size: 22px;
+}
+.button3 .button-end-box1 {
+  width: 30px;
+  height: 30px;
+  background-color: #8bffff;
+  border-radius: 15px;
+}
+
+.button4 {
+  background-color: #3C415E;
+  border: 5px solid #76899C;
+  border-radius: 12px;
+  padding: 26px 26px;
+}
+.button4 .button-small {
+  background: linear-gradient(44deg, #c7004c 0%, #ffaaaa 100%);
+  border-radius: 12px;
+  width: 167px;
+  height: 184px;
+  margin-bottom: 15px;
+}
+.button4 .button-end-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #c7004c;
+  margin-bottom: 10px;
+}
+.button4 .button-end-text {
+  color: white;
+  font-size: 22px;
+}
+.button4 .button-end-box1 {
+  width: 30px;
+  height: 30px;
+  background-color: #ffaaaa;
+  border-radius: 15px;
+}
+
+.button5 {
+  background-color: #3C415E;
+  border: 5px solid #76899C;
+  border-radius: 12px;
+  padding: 26px 26px;
+}
+.button5 .button-small {
+  background: linear-gradient(44deg, #55968f 0%, #8acbbb 100%);
+  border-radius: 12px;
+  width: 167px;
+  height: 184px;
+  margin-bottom: 15px;
+}
+.button5 .button-end-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #55968f;
+  margin-bottom: 10px;
+}
+.button5 .button-end-text {
+  color: white;
+  font-size: 22px;
+}
+.button5 .button-end-box1 {
+  width: 30px;
+  height: 30px;
+  background-color: #8acbbb;
+  border-radius: 15px;
+}
+
+.button6 {
+  background-color: #3C415E;
+  border: 5px solid #76899C;
+  border-radius: 12px;
+  padding: 26px 26px;
+}
+.button6 .button-small {
+  background: linear-gradient(44deg, #226b80 0%, #35b0ab 100%);
+  border-radius: 12px;
+  width: 167px;
+  height: 184px;
+  margin-bottom: 15px;
+}
+.button6 .button-end-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #226b80;
+  margin-bottom: 10px;
+}
+.button6 .button-end-text {
+  color: white;
+  font-size: 22px;
+}
+.button6 .button-end-box1 {
+  width: 30px;
+  height: 30px;
+  background-color: #35b0ab;
+  border-radius: 15px;
+}
+
+.button7 {
+  background-color: #3C415E;
+  border: 5px solid #76899C;
+  border-radius: 12px;
+  padding: 26px 26px;
+}
+.button7 .button-small {
+  background: linear-gradient(44deg, #3b6cb9 0%, #00fff0 100%);
+  border-radius: 12px;
+  width: 167px;
+  height: 184px;
+  margin-bottom: 15px;
+}
+.button7 .button-end-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #3b6cb9;
+  margin-bottom: 10px;
+}
+.button7 .button-end-text {
+  color: white;
+  font-size: 22px;
+}
+.button7 .button-end-box1 {
+  width: 30px;
+  height: 30px;
+  background-color: #00fff0;
+  border-radius: 15px;
+}
+
+.button8 {
+  background-color: #3C415E;
+  border: 5px solid #76899C;
+  border-radius: 12px;
+  padding: 26px 26px;
+}
+.button8 .button-small {
+  background: linear-gradient(44deg, #4d3664 0%, #bab5f6 100%);
+  border-radius: 12px;
+  width: 167px;
+  height: 184px;
+  margin-bottom: 15px;
+}
+.button8 .button-end-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #4d3664;
+  margin-bottom: 10px;
+}
+.button8 .button-end-text {
+  color: white;
+  font-size: 22px;
+}
+.button8 .button-end-box1 {
+  width: 30px;
+  height: 30px;
+  background-color: #bab5f6;
+  border-radius: 15px;
+}
+
+.button9 {
+  background-color: #3C415E;
+  border: 5px solid #76899C;
+  border-radius: 12px;
+  padding: 26px 26px;
+}
+.button9 .button-small {
+  background: linear-gradient(44deg, #fa4659 0%, #e9007f 100%);
+  border-radius: 12px;
+  width: 167px;
+  height: 184px;
+  margin-bottom: 15px;
+}
+.button9 .button-end-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #fa4659;
+  margin-bottom: 10px;
+}
+.button9 .button-end-text {
+  color: white;
+  font-size: 22px;
+}
+.button9 .button-end-box1 {
+  width: 30px;
+  height: 30px;
+  background-color: #e9007f;
+  border-radius: 15px;
+}
+
+.button10 {
+  background-color: #3C415E;
+  border: 5px solid #76899C;
+  border-radius: 12px;
+  padding: 26px 26px;
+}
+.button10 .button-small {
+  background: linear-gradient(44deg, #00b7c2 0%, #4ef037 100%);
+  border-radius: 12px;
+  width: 167px;
+  height: 184px;
+  margin-bottom: 15px;
+}
+.button10 .button-end-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #00b7c2;
+  margin-bottom: 10px;
+}
+.button10 .button-end-text {
+  color: white;
+  font-size: 22px;
+}
+.button10 .button-end-box1 {
+  width: 30px;
+  height: 30px;
+  background-color: #4ef037;
+  border-radius: 15px;
+}/*# sourceMappingURL=main.css.map */

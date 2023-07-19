@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.cards{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+@mixin btn($bg-color, $border, $radius, $padding, $bg1-color, $radius1, 
+            $width1, $height1, $m-b, $width3, $height3, $radius3 , $bg-3color,$box-mb, $color, $f-s, $width2, $height2, $color2, $radius2){
+   background-color: $bg-color; 
+   border: $border;
+   border-radius: $radius;
+   padding: $padding;
+   .button-small{
+    background: $bg1-color;
+    border-radius: $radius1;
+    width: $width1;
+    height: $height1;
+    margin-bottom: $m-b;
+   }
+    .button-end-box{
+        width: $width3;
+        height: $height3;
+        border-radius: $radius3;
+        background-color: $bg-3color;
+        margin-bottom: $box-mb;
+    }
+    .button-end-text{
+       color: $color;
+       font-size: $f-s;
+    } 
+    .button-end-box1{
+        width: $width2;
+        height: $height2;
+        background-color: $color2;
+        border-radius: $radius2;
+    
+    }
+
+   
+
+}
+.button-end{
+    display: flex;
+    gap: 20px;
+}
+
+.button1{
+    @include btn(#3C415E, 5px solid #76899C, 12px ,26px 26px , linear-gradient(44deg, #00bd56 0%, #f9fd50 100%), 12px, 167px, 184px,15px,30px,30px , 15px, #00bd56, 10px, white, 22px, 30px ,30px, #f9fd50,15px )
+}
+
+.button2{
+    @include btn(#3C415E, 5px solid #76899C, 12px ,26px 26px , linear-gradient(44deg,#26baee 0%, #9fe8fa 100%), 12px, 167px, 184px,15px,30px,30px , 15px, #26baee, 10px, white, 22px, 30px ,30px, #9fe8fa,15px )
+}
+.button3{
+    @include btn(#3C415E, 5px solid #76899C, 12px ,26px 26px , linear-gradient(44deg, #8f71ff 0%, #8bffff 100%), 12px, 167px, 184px,15px,30px,30px , 15px, #8f71ff, 10px, white, 22px, 30px ,30px, #8bffff,15px )
+}
+.button4{
+    @include btn(#3C415E, 5px solid #76899C, 12px ,26px 26px , linear-gradient(44deg, #c7004c 0%, #ffaaaa 100%), 12px, 167px, 184px,15px,30px,30px , 15px, #c7004c, 10px, white, 22px, 30px ,30px, #ffaaaa,15px )
+}
+.button5{
+    @include btn(#3C415E, 5px solid #76899C, 12px ,26px 26px , linear-gradient(44deg, #55968f 0%, #8acbbb 100%), 12px, 167px, 184px,15px,30px,30px , 15px, #55968f, 10px, white, 22px, 30px ,30px, #8acbbb,15px )
+}
+.button6{
+    @include btn(#3C415E, 5px solid #76899C, 12px ,26px 26px , linear-gradient(44deg, #226b80 0%, #35b0ab 100%), 12px, 167px, 184px,15px,30px,30px , 15px, #226b80 , 10px, white, 22px, 30px ,30px, #35b0ab,15px )
+}
+.button7{
+    @include btn(#3C415E, 5px solid #76899C, 12px ,26px 26px , linear-gradient(44deg, #3b6cb9 0%, #00fff0 100%), 12px, 167px, 184px,15px,30px,30px , 15px, #3b6cb9, 10px, white, 22px, 30px ,30px, #00fff0,15px )
+}
+.button8{
+    @include btn(#3C415E, 5px solid #76899C, 12px ,26px 26px , linear-gradient(44deg, #4d3664 0%, #bab5f6 100%), 12px, 167px, 184px,15px,30px,30px , 15px, #4d3664, 10px, white, 22px, 30px ,30px, #bab5f6,15px )
+}
+.button9{
+    @include btn(#3C415E, 5px solid #76899C, 12px ,26px 26px , linear-gradient(44deg, #fa4659 0%, #e9007f 100%), 12px, 167px, 184px,15px,30px,30px , 15px, #fa4659, 10px, white, 22px, 30px ,30px, #e9007f,15px )
+}
+.button10{
+    @include btn(#3C415E, 5px solid #76899C, 12px ,26px 26px , linear-gradient(44deg, #00b7c2 0%, #4ef037 100%), 12px, 167px, 184px,15px,30px,30px , 15px, #00b7c2, 10px, white, 22px, 30px ,30px, #4ef037,15px )
+}
+
